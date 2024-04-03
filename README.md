@@ -114,17 +114,17 @@ $ sudo systemctl status mysql
 ```
 
 **4. Управление deb-пакетами**
-- Установить и затем удалить deb-пакет, используя команду `dpkg`.
+Установить и затем удалить deb-пакет, используя команду `dpkg`.
   
-- -скачиваем virtualbox
+- скачиваем virtualbox
 ```
 $ wget https://download.virtualbox.org/virtualbox/7.0.14/virtualbox-7.0_7.0.14-161095~Ubuntu~jammy_amd64.deb
 ```
--установка virtualbox
+- установка virtualbox
 ```
 $ dpkg -i virtualbox-7.0_7.0.6-155176Ubuntujammy_amd64.deb
 ```
-  -удаление virtualbox
+- удаление virtualbox
 ```
 $ dpkg -P virtualbox-7.0
 ```
